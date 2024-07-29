@@ -1,6 +1,6 @@
 r1=createobject("rorectangle",0,0,1920,1080)
 h1=createobject("rohtmlwidget",r1)
-h1.seturl("http://www.google.co.uk")
+h1.seturl("http://www.google.com")
 ' Uncomment the following for portrait mode
 'h1.settransform("rot90")
 h1.StartInspectorServer(2999)
@@ -33,5 +33,3 @@ while true
 		endif
 	endif
 end while
-
-
