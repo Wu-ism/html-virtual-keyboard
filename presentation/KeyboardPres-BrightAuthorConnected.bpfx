@@ -1,6 +1,6 @@
 {
   "meta": {
-    "brightAuthorVersion": "1.27.1",
+    "brightAuthorVersion": "1.37.1",
     "buildType": "Standard"
   },
   "bsdm": {
@@ -9,12 +9,12 @@
         "id": "dcc7428b-01e2-4000-adf2-e0afb4580000",
         "version": "1.3.10",
         "name": "KeyboardPres-BrightAuthorConnected",
-        "videoMode": "3840x2160x30p",
+        "videoMode": "1920x1080x60p",
         "size": {
-          "width": 3840,
-          "height": 2160
+          "width": 1920,
+          "height": 1080
         },
-        "model": "XT1145",
+        "model": "LS424",
         "monitorOrientation": "Landscape",
         "monitorOverscan": "NoOverscan",
         "videoConnector": "HDMI",
@@ -51,7 +51,8 @@
         "disableSettingsHandler": false,
         "isMosaic": false,
         "graphicsZOrder": "Back",
-        "htmlEnableChromiumVideoPlayback": false
+        "htmlEnableChromiumVideoPlayback": false,
+        "gpsConfiguration": "None"
       },
       "serialPortConfigurations": [
         {
@@ -497,7 +498,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2024-02-06T23:30:49.603Z"
+      "lastModifiedTime": "2024-07-29T23:07:24.585Z"
     },
     "zones": {
       "zonesById": {
@@ -509,8 +510,8 @@
           "nonInteractive": false,
           "initialMediaStateId": "78ce1e92-183e-4000-aad6-a94764945000",
           "position": {
-            "width": 3840,
-            "height": 2160,
+            "width": 1920,
+            "height": 1080,
             "x": 0,
             "y": 0,
             "pct": false
@@ -716,6 +717,10 @@
         }
       }
     },
+    "userDefinedEvents": {
+      "userDefinedEventsById": {},
+      "sequence": []
+    },
     "htmlSites": {
       "5068e86e-51fb-4000-a1aa-f1556f98c000": {
         "id": "5068e86e-51fb-4000-a1aa-f1556f98c000",
@@ -728,7 +733,7 @@
           "params": [
             {
               "type": "Text",
-              "value": "http://google.com"
+              "value": "https://www.brightsign.biz/"
             }
           ]
         }
@@ -769,32 +774,33 @@
     "linkedPresentations": {},
     "partnerProducts": {},
     "customAutorun": "0",
+    "bmapSpec": "0",
     "assetMap": {
       "9bb7c058-f2c8-4000-a2dd-f76c698c0000": {
         "id": "9bb7c058-f2c8-4000-a2dd-f76c698c0000",
         "name": "keyboard.zip",
-        "path": "/Users/bhastings/git/html-virtual-keyboard/presentation/",
+        "path": "C:\\Users\\wuchr\\Documents\\GitHub\\html-virtual-keyboard\\presentation\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "963e0712aae85c21",
-        "locator": "file:///Users/bhastings/git/html-virtual-keyboard/presentation/keyboard.zip",
+        "scope": "02c966ea091b4b48",
+        "locator": "file://\\C:\\Users\\wuchr\\Documents\\GitHub\\html-virtual-keyboard\\presentation\\keyboard.zip",
         "mediaType": "Auxiliary",
-        "fileSize": 129066,
-        "lastModifiedDate": "2024-01-24T16:45:12.245Z",
+        "fileSize": 129045,
+        "lastModifiedDate": "2024-07-29T22:19:44.033Z",
         "refCount": 1
       },
       "764d90ef-7f2c-4000-aef0-91d8ed996000": {
         "id": "764d90ef-7f2c-4000-aef0-91d8ed996000",
         "name": "virtualKeyboard.brs",
-        "path": "/Users/bhastings/git/html-virtual-keyboard/presentation/",
+        "path": "C:\\Users\\wuchr\\Documents\\GitHub\\html-virtual-keyboard\\presentation\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "BrightScript",
-        "scope": "963e0712aae85c21",
-        "locator": "file:///Users/bhastings/git/html-virtual-keyboard/presentation/virtualKeyboard.brs",
-        "fileSize": 5656,
-        "lastModifiedDate": "2024-02-06T22:45:00.997Z",
+        "scope": "02c966ea091b4b48",
+        "locator": "file://\\C:\\Users\\wuchr\\Documents\\GitHub\\html-virtual-keyboard\\presentation\\virtualKeyboard.brs",
+        "fileSize": 5860,
+        "lastModifiedDate": "2024-07-29T22:19:44.035Z",
         "refCount": 1
       }
     },
@@ -811,11 +817,18 @@
   "selection": {
     "hovered": null,
     "selectionContainer": {
-      "id": "c02c0619-17b4-4000-ab3d-0303389ee000",
-      "type": "ZONE",
-      "selectableType": "ZONE"
+      "id": "PRESENTATION",
+      "type": "PRESENTATION",
+      "selectableType": "PRESENTATION"
     },
-    "selectionEntities": {},
+    "selectionEntities": {
+      "c02c0619-17b4-4000-ab3d-0303389ee000": {
+        "id": "c02c0619-17b4-4000-ab3d-0303389ee000",
+        "type": "ZONE",
+        "selectableType": "ZONE",
+        "selectableData": null
+      }
+    },
     "prevSelectionEntities": {},
     "isEventAdvancedEnabled": false,
     "activeAssetMenuTab": "WIDGETS"
@@ -825,17 +838,17 @@
       "78ce1e92-183e-4000-aad6-a94764945000": {
         "id": "78ce1e92-183e-4000-aad6-a94764945000",
         "position": {
-          "x": 645.2076416015625,
-          "y": -428.0040283203125
+          "x": 660,
+          "y": -420
         }
       }
     },
     "eventDataById": {},
     "viewTransformByZoneId": {
       "c02c0619-17b4-4000-ab3d-0303389ee000": {
-        "x": -27.144317502231956,
-        "y": 318.9164420678582,
-        "k": 0.4459526681260202
+        "x": 0,
+        "y": 0,
+        "k": 1
       }
     },
     "isLoaderEnabled": false
